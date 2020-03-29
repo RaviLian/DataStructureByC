@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Code/LinearList_Array/main.c" "D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/LinearList_Array.dir/main.c.obj"
+  "D:/Code/DataStructureByC/LinearList_Array/main.c" "D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/LinearList_Array.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

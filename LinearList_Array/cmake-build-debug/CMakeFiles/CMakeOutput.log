@@ -10,39 +10,39 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_dfa5d/fast && D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f CMakeFiles\cmTC_dfa5d.dir\build.make CMakeFiles/cmTC_dfa5d.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dfa5d.dir/testCCompiler.c.obj
-D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe    -o CMakeFiles\cmTC_dfa5d.dir\testCCompiler.c.obj   -c D:\Code\LinearList_Array\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_dfa5d.exe
-"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dfa5d.dir\link.txt --verbose=1
-"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_dfa5d.dir/objects.a
-D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_dfa5d.dir/objects.a @CMakeFiles\cmTC_dfa5d.dir\objects1.rsp
-D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_dfa5d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_dfa5d.exe -Wl,--out-implib,libcmTC_dfa5d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dfa5d.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_39bbd/fast && D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f CMakeFiles\cmTC_39bbd.dir\build.make CMakeFiles/cmTC_39bbd.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39bbd.dir/testCCompiler.c.obj
+D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe    -o CMakeFiles\cmTC_39bbd.dir\testCCompiler.c.obj   -c D:\Code\DataStructureByC\LinearList_Array\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_39bbd.exe
+"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_39bbd.dir\link.txt --verbose=1
+"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_39bbd.dir/objects.a
+D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_39bbd.dir/objects.a @CMakeFiles\cmTC_39bbd.dir\objects1.rsp
+D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_39bbd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_39bbd.exe -Wl,--out-implib,libcmTC_39bbd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_39bbd.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_b971c/fast && D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f CMakeFiles\cmTC_b971c.dir\build.make CMakeFiles/cmTC_b971c.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b971c.dir/CMakeCCompilerABI.c.obj
-D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe   -v -o CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj   -c "D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+Run Build Command(s):D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_b3bb3/fast && D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f CMakeFiles\cmTC_b3bb3.dir\build.make CMakeFiles/cmTC_b3bb3.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3bb3.dir/CMakeCCompilerABI.c.obj
+D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe   -v -o CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj   -c "D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe
 Target: mingw32
 Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
 Thread model: win32
 gcc version 4.7.2 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
- d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/ D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\XIAOYU~1\AppData\Local\Temp\ccAdlour.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/ D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\XIAOYU~1\AppData\Local\Temp\ccFytrGZ.s
 GNU C (GCC) version 4.7.2 (mingw32)
 	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -63,17 +63,17 @@ GNU C (GCC) version 4.7.2 (mingw32)
 	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 3b27086c5ded24a8d4e25ee0782084d1
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
- d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj C:\Users\XIAOYU~1\AppData\Local\Temp\ccAdlour.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj C:\Users\XIAOYU~1\AppData\Local\Temp\ccFytrGZ.s
 GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1
 COMPILER_PATH=d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
 LIBRARY_PATH=d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
-Linking C executable cmTC_b971c.exe
-"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b971c.dir\link.txt --verbose=1
-"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b971c.dir/objects.a
-D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_b971c.dir/objects.a @CMakeFiles\cmTC_b971c.dir\objects1.rsp
-D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b971c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b971c.exe -Wl,--out-implib,libcmTC_b971c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+Linking C executable cmTC_b3bb3.exe
+"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b3bb3.dir\link.txt --verbose=1
+"D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b3bb3.dir/objects.a
+D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_b3bb3.dir/objects.a @CMakeFiles\cmTC_b3bb3.dir\objects1.rsp
+D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b3bb3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b3bb3.exe -Wl,--out-implib,libcmTC_b3bb3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe
 COLLECT_LTO_WRAPPER=d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe
@@ -83,9 +83,9 @@ Thread model: win32
 gcc version 4.7.2 (GCC) 
 COMPILER_PATH=d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
 LIBRARY_PATH=d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b971c.exe' '-mtune=i386' '-march=i386'
- d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_b971c.exe d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_b971c.dir/objects.a --no-whole-archive --out-implib libcmTC_b971c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
-mingw32-make.exe[1]: Leaving directory 'D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3bb3.exe' '-mtune=i386' '-march=i386'
+ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_b3bb3.exe d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_b3bb3.dir/objects.a --no-whole-archive --out-implib libcmTC_b3bb3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
+mingw32-make.exe[1]: Leaving directory 'D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -104,20 +104,20 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_b971c/fast && D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f CMakeFiles\cmTC_b971c.dir\build.make CMakeFiles/cmTC_b971c.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Code/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b971c.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe   -v -o CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj   -c "D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Run Build Command(s):D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_b3bb3/fast && D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f CMakeFiles\cmTC_b3bb3.dir\build.make CMakeFiles/cmTC_b3bb3.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Code/DataStructureByC/LinearList_Array/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b3bb3.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe   -v -o CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj   -c "D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe]
   ignore line: [Target: mingw32]
   ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
   ignore line: [Thread model: win32]
   ignore line: [gcc version 4.7.2 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
-  ignore line: [ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/ D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\XIAOYU~1\AppData\Local\Temp\ccAdlour.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/ D:\Development\CLion 2019.3.5\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\XIAOYU~1\AppData\Local\Temp\ccFytrGZ.s]
   ignore line: [GNU C (GCC) version 4.7.2 (mingw32)]
   ignore line: [	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -138,8 +138,8 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 3b27086c5ded24a8d4e25ee0782084d1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
-  ignore line: [ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj C:\Users\XIAOYU~1\AppData\Local\Temp\ccAdlour.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj C:\Users\XIAOYU~1\AppData\Local\Temp\ccFytrGZ.s]
   ignore line: [GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1]
   ignore line: [COMPILER_PATH=d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/]
   ignore line: [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/]
@@ -148,12 +148,12 @@ Parsed C implicit link information from above output:
   ignore line: [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/]
   ignore line: [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
   ignore line: [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b971c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
-  ignore line: [Linking C executable cmTC_b971c.exe]
-  ignore line: ["D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b971c.dir\link.txt --verbose=1]
-  ignore line: ["D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b971c.dir/objects.a]
-  ignore line: [D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_b971c.dir/objects.a @CMakeFiles\cmTC_b971c.dir\objects1.rsp]
-  ignore line: [D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b971c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b971c.exe -Wl,--out-implib,libcmTC_b971c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b3bb3.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [Linking C executable cmTC_b3bb3.exe]
+  ignore line: ["D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b3bb3.dir\link.txt --verbose=1]
+  ignore line: ["D:\Development\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b3bb3.dir/objects.a]
+  ignore line: [D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_b3bb3.dir/objects.a @CMakeFiles\cmTC_b3bb3.dir\objects1.rsp]
+  ignore line: [D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b3bb3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b3bb3.exe -Wl,--out-implib,libcmTC_b3bb3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\C++\Dev-cpp5.4.0\Dev-Cpp\MinGW32\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe]
@@ -168,12 +168,12 @@ Parsed C implicit link information from above output:
   ignore line: [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/]
   ignore line: [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
   ignore line: [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b971c.exe' '-mtune=i386' '-march=i386']
-  link line: [ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_b971c.exe d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_b971c.dir/objects.a --no-whole-archive --out-implib libcmTC_b971c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3bb3.exe' '-mtune=i386' '-march=i386']
+  link line: [ d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_b3bb3.exe d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_b3bb3.dir/objects.a --no-whole-archive --out-implib libcmTC_b3bb3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
     arg [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b971c.exe] ==> ignore
+    arg [cmTC_b3bb3.exe] ==> ignore
     arg [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o] ==> ignore
     arg [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o] ==> ignore
     arg [-Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2] ==> dir [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2]
@@ -181,10 +181,10 @@ Parsed C implicit link information from above output:
     arg [-Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib] ==> dir [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib]
     arg [-Ld:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../..] ==> dir [d:/c++/dev-cpp5.4.0/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_b971c.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_b3bb3.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_b971c.dll.a] ==> ignore
+    arg [libcmTC_b3bb3.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore

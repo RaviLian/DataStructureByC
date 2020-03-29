@@ -1,5 +1,5 @@
 //
-// Created by xiaoyumei on 2020/3/29.
+// Created by RaviLian on 2020/3/29.
 //
 #include <stdlib.h>
 #ifndef LINEARLIST_ARRAY_ARRAYIMPL_H
