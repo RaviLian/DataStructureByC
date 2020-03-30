@@ -8,13 +8,13 @@
 
 struct LNode{
     int Data[MAXSIZE];
-    int Last;
+    int Last;  //´ú±íÊı×éÏÂ±ê
 };
 
 typedef struct LNode *List;
 
 
-//1.åˆå§‹åŒ–ï¼ˆå»ºç«‹ç©ºçš„é¡ºåºè¡¨ï¼‰
+//1.³õÊ¼»¯£¨½¨Á¢¿ÕµÄË³Ğò±í£©
 List MakeEmpty(){
     List PtrL;
     PtrL = (List)malloc(sizeof(struct LNode));
@@ -22,50 +22,81 @@ List MakeEmpty(){
     return PtrL;
 }
 
-//2.æŸ¥æ‰¾
+//2.²éÕÒ
 int Find(int X, List PtrL){
     int i = 0;
     while(i <= PtrL->Last && X != PtrL->Data[i])
         i++;
     if(i > PtrL->Last)
-        return -1;     //å¦‚æœæ²¡æ‰¾åˆ°å°±è¿”å›-1
+        return -1;     //Èç¹ûÃ»ÕÒµ½¾Í·µ»Ø-1
     else
-        return i;     //å¦‚æœæ‰¾åˆ°äº† è¿”å›ä¸‹æ ‡
+        return i;     //Èç¹ûÕÒµ½ÁË ·µ»ØÏÂ±ê
 }
 
-//3.æ’å…¥ï¼ˆåœ¨ç¬¬iï¼ˆ1<i<n+1ï¼‰ä¸ªä½ç½®ä¸Šæ’å…¥ä¸€ä¸ªå€¼ä¸ºXçš„å…ƒç´ ï¼‰
+//3.²åÈë£¨ÔÚµÚi£¨1<i<n+1£©¸öÎ»ÖÃÉÏ²åÈëÒ»¸öÖµÎªXµÄÔªËØ£©
 void Insert(int X, int i, List PtrL)
 {
     int j;
-    if(PtrL->Last == MAXSIZE-1){	/*è¡¨ç©ºé—´å·²æ»¡ï¼Œä¸èƒ½æ’å…¥*/
-        printf("è¡¨æ»¡");
+    if(PtrL->Last == MAXSIZE-1){	/*±í¿Õ¼äÒÑÂú£¬²»ÄÜ²åÈë*/
+        printf("±íÂú");
         return;
     }
-    if(i < 1 || i > PtrL->Last+2){	/*æ£€æŸ¥æ’å…¥ä½ç½®çš„åˆæ³•æ€§*/
-        printf("ä½ç½®ä¸åˆæ³•");
+    if(i < 1 || i > PtrL->Last+2){	/*¼ì²é²åÈëÎ»ÖÃµÄºÏ·¨ĞÔ*/
+        printf("Î»ÖÃ²»ºÏ·¨");
         return;
     }
-    for(j = PtrL->Last-1; j >= i-1; j--){/*å°†aiåˆ°anå€’å™å‘åç§»åŠ¨*/
+    for(j = PtrL->Last; j >= i-1; j--){/*½«aiµ½anµ¹ĞğÏòºóÒÆ¶¯*/
         PtrL->Data[j+1] = PtrL->Data[j];
     }
-    PtrL->Data[i-1] = X;	/*æ’å…¥æ–°å…ƒç´ */
-    PtrL->Last++;			/*ä»¤LastæŒ‡å‘æœ€åä¸€ä¸ªå…ƒç´ */
+    PtrL->Data[i-1] = X;	/*²åÈëĞÂÔªËØ*/
+    PtrL->Last++;			/*ÁîLastÖ¸Ïò×îºóÒ»¸öÔªËØ*/
     return;
 }
 
-void Delete(int i, List PtrL)	/*iå®é™…ä¸Šæ˜¯ä¸‹æ ‡+1*/
+void DeleteByPos(int i, List PtrL)	/*iÊµ¼ÊÉÏÊÇÏÂ±ê+1*/
 {
     int j;
     if(i < 1 || i > PtrL->Last+1){
-        printf("ä¸å­˜åœ¨ç¬¬%dä¸ªå…ƒç´ ",i);	/*æ£€æŸ¥åˆ é™¤ä½ç½®çš„åˆæ³•æ€§*/
+        printf("²»´æÔÚµÚ%d¸öÔªËØ",i);	/*¼ì²éÉ¾³ıÎ»ÖÃµÄºÏ·¨ĞÔ*/
         return;
     }
     for(j = i; j <= PtrL->Last; j++)
-        PtrL->Data[j-1] = PtrL->Data[j];	/*ai+1åˆ°anå‘å‰æŒª*/
-    PtrL->Last--;							/*æ£€æŸ¥æ’å…¥ä½ç½®çš„åˆæ³•æ€§*/
+        PtrL->Data[j-1] = PtrL->Data[j];	/*ai+1µ½anÏòÇ°Å²*/
+    PtrL->Last--;							/*¼ì²é²åÈëÎ»ÖÃµÄºÏ·¨ĞÔ*/
     return;
 }
 
+void DeleteByElem(int X, List PtrL)
+{
+    int i;
+    int index;
+    for(i = 0; i <= PtrL->Last; i++){
+        if(X == PtrL->Data[i])
+            index = i;
+    }
+    for(i = index; i <= PtrL->Last; i++)
+        PtrL->Data[i] = PtrL->Data[i+1];
+    PtrL->Last--;
+    return;
+}
 
+List CreateList(List EmptyList, int n){
+    int num,i;
+    printf("ÇëÊäÈëÏßĞÔ±íµÄÊı¾İ:\n");
+    for(i = 1; i <= n; i++){
+        scanf("%d",&num);
+        Insert(num,i,EmptyList);
+    }
+    return EmptyList;
+}
+
+void PrintList(List MyList){
+    int length = MyList->Last + 1;
+    for(int i = 0; i < length; i++){
+        printf("%d",MyList->Data[i]);
+        if(i != length-1)
+            printf(" | ");
+    }
+}
 
 #endif //LINEARLIST_ARRAY_ARRAYIMPL_H

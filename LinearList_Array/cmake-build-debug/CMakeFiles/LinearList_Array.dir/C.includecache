@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/DataStructureByC/LinearList_Array/ArrayImpl.h
+stdlib.h
+-
+
+D:/Code/DataStructureByC/LinearList_Array/main.c
+stdio.h
+-
+ArrayImpl.h
+D:/Code/DataStructureByC/LinearList_Array/ArrayImpl.h
+
