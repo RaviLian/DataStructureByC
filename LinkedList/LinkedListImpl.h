@@ -1,0 +1,8 @@
+//
+// Created by RaviLian on 2020/4/3.
+//
+
+#ifndef LINKEDLIST_LINKEDLISTIMPL_H
+#define LINKEDLIST_LINKEDLISTIMPL_H
+
+#endif //LINKEDLIST_LINKEDLISTIMPL_H
