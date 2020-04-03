@@ -69,14 +69,16 @@ void DeleteByPos(int i, List PtrL)	/*i实际上是下标+1*/
 void DeleteByElem(int X, List PtrL)
 {
     int i;
-    int index;
+    int index = -1;
     for(i = 0; i <= PtrL->Last; i++){
         if(X == PtrL->Data[i])
             index = i;
     }
-    for(i = index; i <= PtrL->Last; i++)
-        PtrL->Data[i] = PtrL->Data[i+1];
-    PtrL->Last--;
+    if(index != -1){
+        for(i = index; i <= PtrL->Last; i++)
+            PtrL->Data[i] = PtrL->Data[i+1];
+        PtrL->Last--;
+    }
     return;
 }
 
