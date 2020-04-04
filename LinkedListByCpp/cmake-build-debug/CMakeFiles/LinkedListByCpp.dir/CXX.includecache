@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/DataStructureByC/LinkedListByCpp/LinkedListImpl.h
+
+D:/Code/DataStructureByC/LinkedListByCpp/main.cpp
+stdio.h
+-
+stdlib.h
+-
+LinkedListImpl.h
+D:/Code/DataStructureByC/LinkedListByCpp/LinkedListImpl.h
+
