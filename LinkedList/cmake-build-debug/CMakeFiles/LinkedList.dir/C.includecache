@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+D:/Code/DataStructureByC/LinkedList/LinkedListImpl.h
+
 D:/Code/DataStructureByC/LinkedList/main.c
 stdio.h
 -
+stdlib.h
+-
+LinkedListImpl.h
+D:/Code/DataStructureByC/LinkedList/LinkedListImpl.h
 

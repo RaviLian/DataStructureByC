@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Code/DataStructureByC/LinkedList/DoubleLinkedListImpl.h">
+			<Option target="LinkedList"/>
+		</Unit>
 		<Unit filename="D:/Code/DataStructureByC/LinkedList/LinkedListImpl.h">
 			<Option target="LinkedList"/>
 		</Unit>

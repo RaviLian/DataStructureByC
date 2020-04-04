@@ -3,4 +3,4 @@ project(LinkedList C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(LinkedList main.c LinkedListImpl.h)
+add_executable(LinkedList main.c LinkedListImpl.h DoubleLinkedListImpl.h)
