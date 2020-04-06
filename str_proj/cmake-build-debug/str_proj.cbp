@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="str_proj"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Code/DataStructureByC/str_proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="str_proj">
+				<Option output="D:/Code/DataStructureByC/str_proj/cmake-build-debug/str_proj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/DataStructureByC/str_proj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include"/>
+					<Add directory="d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/../../../../include"/>
+					<Add directory="d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 str_proj"/>
+					<CompileFile command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="str_proj/fast">
+				<Option output="D:/Code/DataStructureByC/str_proj/cmake-build-debug/str_proj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/DataStructureByC/str_proj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include"/>
+					<Add directory="d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/../../../../include"/>
+					<Add directory="d:\c++\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 str_proj/fast"/>
+					<CompileFile command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Code/DataStructureByC/str_proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Code/DataStructureByC/str_proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Code/DataStructureByC/str_proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Code/DataStructureByC/str_proj/main.c">
+			<Option target="str_proj"/>
+		</Unit>
+		<Unit filename="D:/Code/DataStructureByC/str_proj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
