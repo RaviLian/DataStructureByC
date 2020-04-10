@@ -4,8 +4,12 @@
 int main() {
     int array[10] = {5, 18, 151, 138, 160, 63, 174, 169, 79, 200};
     PrintArray(array,10);
-    ShellSort(array,10);
+    mergeSort(array,0,9);
     PrintArray(array,10);
+//    quickSort(array,0,9);
+//    PrintArray(array,10);
+//    ShellSort(array,10);
+//    PrintArray(array,10);
 //    InsertionSort(array,4);
 //    PrintArray(array,4);
 //    BubbleSort(array,10);
@@ -82,5 +86,56 @@ void ShellSort (int *arr, int len) {
             }
             arr[j + gap] = temp;
         }
+    }
+}
+
+void quickSort (int *arr, int begin, int end) {
+    if (end <= begin) return;
+    int pivot;
+    pivot = partition(arr, begin, end);
+    quickSort(arr, begin, pivot - 1);
+    quickSort(arr, pivot + 1, end);
+}
+
+int partition (int *a, int begin, int end) {
+    //pivot 标杆位置，counter 小于pivot的元素的个数
+    int pivot = end, counter = begin;
+    int i, temp;
+    //counter代表第一个大于pivot的位置
+    //找到比pivot小的元素就会和counter位置的元素交换
+    for (i = begin; i < end; i++) {
+        if (a[i] < a[pivot]) {
+            temp = a[counter]; a[counter] = a[i]; a[i] = temp;
+            counter++;
+        }
+    }
+    //最后pivot和counter位置的元素互换，左侧元素均小于pivot，右侧元素均大于pivot
+    temp = a[pivot]; a[pivot] = a[counter]; a[counter] = temp;
+    return counter;
+}
+
+void mergeSort (int *arr, int left, int right) {
+    if (right <= left)
+        return;
+    int mid = (left + right) >> 1; //(left + right)/2
+
+    mergeSort(arr, left, mid);
+    mergeSort(arr, mid + 1, right);
+    merge(arr, left, mid, right);
+}
+
+void merge (int *a, int left, int mid, int right) {
+    int temp[right - left + 1];
+    int i = left, j = mid + 1, k = 0;
+    int p;
+
+    while (i <= mid && j <= right) {
+        temp[k++] = a[i] <= a[j] ? a[i++] : a[j++];
+    }
+    while (i <= mid) temp[k++] = a[i++];
+    while (j <= right) temp[k++] = a[j++];
+
+    for (p = 0; p < right - left + 1; p++) {
+        a[left + p] = temp[p];
     }
 }

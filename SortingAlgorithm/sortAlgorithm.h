@@ -38,4 +38,38 @@ void SelectionSort (int *arr, int len);
  * @param len
  */
 void ShellSort (int *arr, int len);
+
+/***
+ * quick Sort
+ * @param arr
+ * @param begin
+ * @param end
+ */
+void quickSort (int *arr, int begin, int end);
+
+/***
+ * 返回标杆位置pivot
+ * @param a
+ * @param begin
+ * @param end
+ * @return
+ */
+int partition (int *a, int begin, int end);
+
+/***
+ *
+ * @param arr
+ * @param left
+ * @param right
+ */
+void mergeSort (int *arr, int left, int right);
+
+/***
+ *
+ * @param a
+ * @param left
+ * @param mid
+ * @param right
+ */
+void merge (int *a, int left, int mid, int right);
 #endif //SORTINGALGORITHM_SORTALGORITHM_H
