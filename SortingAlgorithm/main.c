@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include "sortAlgorithm.h"
-
+#include <math.h>
 int main() {
-    int array[10] = {3, 44, 38, 5, 47, 15, 36, 50, 27, 48};
+    int array[10] = {5, 18, 151, 138, 160, 63, 174, 169, 79, 200};
     PrintArray(array,10);
-//    InsertionSort(array,10);
-//    PrintArray(array,10);
+    ShellSort(array,10);
+    PrintArray(array,10);
+//    InsertionSort(array,4);
+//    PrintArray(array,4);
 //    BubbleSort(array,10);
 //    PrintArray(array,10);
-    SelectionSort(array,10);
-    PrintArray(array,10);
+//    SelectionSort(array,10);
+//    PrintArray(array,10);
 
     return 0;
 }
@@ -40,7 +42,7 @@ void InsertionSort (int *arr, int len) {
     for (i = 1; i < len; i++) {
         preIndex = i - 1;
         currentElem = arr[i];
-        while (preIndex > 0 && arr[preIndex] > currentElem) {
+        while (preIndex >= 0 && arr[preIndex] > currentElem) {
             arr[preIndex + 1] = arr[preIndex];
             preIndex--;
         }
@@ -61,5 +63,24 @@ void SelectionSort (int *arr, int len) {
         temp = arr[i];
         arr[i] = arr[minIndex];
         arr[minIndex] = temp;
+    }
+}
+
+void ShellSort (int *arr, int len) {
+    int i, j, temp, gap;
+    //The step size is initialized to half the length of the array,
+    // and the step size is halved after each traversal
+    for (gap = len / 2; gap >= 1; gap /= 2) {
+        //认为步长为gap的元素是一组，对它们进行插入排序，
+        // 当gap为1时，就是对整个数组进行插入排序；此段代码可以完全参考插入排序
+        for (i = gap; i < len; i += gap) {
+            temp = arr[i];  //备份，因为从后向前扫描，元素可能会后移覆盖
+            j = i - gap; //j初始化为i的前一个元素（与i相差gap长度）
+            while (j >= 0 && arr[j] > temp) {
+                arr[j + gap] = arr[j];  //将在arr[i]前且比temp的值大的元素向后移动一位
+                j -= gap;
+            }
+            arr[j + gap] = temp;
+        }
     }
 }

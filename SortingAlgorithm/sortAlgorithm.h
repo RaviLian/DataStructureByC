@@ -1,7 +1,6 @@
 //
 // Created by RaviLian on 2020/4/9.
 //
-#include <stdlib.h>
 #ifndef SORTINGALGORITHM_SORTALGORITHM_H
 #define SORTINGALGORITHM_SORTALGORITHM_H
 
@@ -32,4 +31,11 @@ void InsertionSort (int *arr, int len);
  * @param len
  */
 void SelectionSort (int *arr, int len);
+
+/***
+ * Shell sort algorithm sorts array elements from small to large
+ * @param arr
+ * @param len
+ */
+void ShellSort (int *arr, int len);
 #endif //SORTINGALGORITHM_SORTALGORITHM_H
