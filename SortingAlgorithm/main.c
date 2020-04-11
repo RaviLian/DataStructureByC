@@ -2,21 +2,22 @@
 #include "sortAlgorithm.h"
 #include <math.h>
 int main() {
-    int array[10] = {5, 18, 151, 138, 160, 63, 174, 169, 79, 200};
+    int array[10] = {500, 180, 165, 1380, 60, 63, 174, 469, 879, 210};
     PrintArray(array,10);
-    mergeSort(array,0,9);
+    heapSort(array,10);
     PrintArray(array,10);
+//    mergeSort(array,0,9);
+//    PrintArray(array,10);
 //    quickSort(array,0,9);
 //    PrintArray(array,10);
 //    ShellSort(array,10);
 //    PrintArray(array,10);
-//    InsertionSort(array,4);
-//    PrintArray(array,4);
+//    InsertionSort(array,10);
+//    PrintArray(array,10);
 //    BubbleSort(array,10);
 //    PrintArray(array,10);
 //    SelectionSort(array,10);
 //    PrintArray(array,10);
-
     return 0;
 }
 
@@ -71,20 +72,20 @@ void SelectionSort (int *arr, int len) {
 }
 
 void ShellSort (int *arr, int len) {
-    int i, j, temp, gap;
-    //The step size is initialized to half the length of the array,
-    // and the step size is halved after each traversal
+    int i, preIndex, currenElem, gap;
+    //步长初始化为数组长度的一半
+    // 每次遍历结束，步长都减为之前的一半
     for (gap = len / 2; gap >= 1; gap /= 2) {
         //认为步长为gap的元素是一组，对它们进行插入排序，
         // 当gap为1时，就是对整个数组进行插入排序；此段代码可以完全参考插入排序
         for (i = gap; i < len; i += gap) {
-            temp = arr[i];  //备份，因为从后向前扫描，元素可能会后移覆盖
-            j = i - gap; //j初始化为i的前一个元素（与i相差gap长度）
-            while (j >= 0 && arr[j] > temp) {
-                arr[j + gap] = arr[j];  //将在arr[i]前且比temp的值大的元素向后移动一位
-                j -= gap;
+            currenElem = arr[i];  //备份，因为从后向前扫描，元素可能会后移覆盖
+            preIndex = i - gap; //preIndex为i的前一个元素（与i相差gap长度）
+            while (preIndex >= 0 && arr[preIndex] > currenElem) {
+                arr[preIndex + gap] = arr[preIndex];  //将在arr[i]前且比temp的值大的元素向后移动一位
+                preIndex -= gap;
             }
-            arr[j + gap] = temp;
+            arr[preIndex + gap] = currenElem;
         }
     }
 }
@@ -137,5 +138,35 @@ void merge (int *a, int left, int mid, int right) {
 
     for (p = 0; p < right - left + 1; p++) {
         a[left + p] = temp[p];
+    }
+}
+
+void heapify(int array[], int length, int i) {
+    int left = 2 * i + 1, right = 2 * i + 2;
+    int largest = i;
+
+    if (left < length && array[left] > array[largest]) {
+        largest = left;
+    }
+    if (right < length && array[right] > array[largest]) {
+        largest = right;
+    }
+
+    if (largest != i) {
+        int temp = array[i]; array[i] = array[largest]; array[largest] = temp;
+        heapify(array, length, largest);
+    }
+}
+
+void heapSort(int array[], int length) {
+    int i;
+    if (length == 0) return;
+
+    for (i = length/2 - 1; i >= 0; i--)
+        heapify(array, length, i);
+
+    for (i = length - 1; i >= 0; i--) {
+        int temp = array[0]; array[0] = array[i]; array[i] = temp;
+        heapify(array, i, 0);
     }
 }

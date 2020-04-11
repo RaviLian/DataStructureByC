@@ -72,4 +72,19 @@ void mergeSort (int *arr, int left, int right);
  * @param right
  */
 void merge (int *a, int left, int mid, int right);
+
+/***
+ *
+ * @param array
+ * @param length
+ * @param i
+ */
+void heapify(int array[], int length, int i);
+
+/***
+ *
+ * @param array
+ * @param length
+ */
+void heapSort(int array[], int length);
 #endif //SORTINGALGORITHM_SORTALGORITHM_H
