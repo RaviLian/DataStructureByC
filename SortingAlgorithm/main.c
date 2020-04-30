@@ -1,11 +1,39 @@
 #include <stdio.h>
 #include "sortAlgorithm.h"
-#include <math.h>
+
+void mergeSort (int arr[], int left, int right) {
+    if (right <= left)
+        return;
+    int mid = (left + right) >> 1; //(left + right)/2
+
+    mergeSort(arr, left, mid);
+    mergeSort(arr, mid + 1, right);
+    merge(arr, left, mid, right);
+}
+
+void merge (int a[], int left, int mid, int right) {
+    int temp[right - left + 1];
+    int i = left, j = mid + 1, k = 0;
+    int p;
+
+    while (i <= mid && j <= right) {
+        temp[k++] = a[i] <= a[j] ? a[i++] : a[j++];
+    }
+    while (i <= mid) temp[k++] = a[i++];
+    while (j <= right) temp[k++] = a[j++];
+
+    for (p = 0; p < right - left + 1; p++) {
+        a[left + p] = temp[p];
+    }
+}
+
+
 int main() {
     int array[10] = {500, 180, 165, 1380, 60, 63, 174, 469, 879, 210};
-    PrintArray(array,10);
-    heapSort(array,10);
-    PrintArray(array,10);
+    mergeSort(array,0,9);
+//    PrintArray(array,10);
+//    heapSort(array,10);
+//    PrintArray(array,10);
 //    mergeSort(array,0,9);
 //    PrintArray(array,10);
 //    quickSort(array,0,9);
@@ -115,31 +143,7 @@ int partition (int *a, int begin, int end) {
     return counter;
 }
 
-void mergeSort (int *arr, int left, int right) {
-    if (right <= left)
-        return;
-    int mid = (left + right) >> 1; //(left + right)/2
 
-    mergeSort(arr, left, mid);
-    mergeSort(arr, mid + 1, right);
-    merge(arr, left, mid, right);
-}
-
-void merge (int *a, int left, int mid, int right) {
-    int temp[right - left + 1];
-    int i = left, j = mid + 1, k = 0;
-    int p;
-
-    while (i <= mid && j <= right) {
-        temp[k++] = a[i] <= a[j] ? a[i++] : a[j++];
-    }
-    while (i <= mid) temp[k++] = a[i++];
-    while (j <= right) temp[k++] = a[j++];
-
-    for (p = 0; p < right - left + 1; p++) {
-        a[left + p] = temp[p];
-    }
-}
 
 void heapify(int array[], int length, int i) {
     int left = 2 * i + 1, right = 2 * i + 2;
