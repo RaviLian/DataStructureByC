@@ -4,24 +4,18 @@
 
 int main() {
   BinTree myTree;
-  BinTree newTree;
+  printf("Create your Binary Tree:\n");
   CreateBinaryTree(&myTree);
-  printf("\n");
+  printf("\n PreOrder:");
   PreOrderTraversal(myTree);
-  printf("\n");
+  printf("\n InOrder:");
   InOrderTraversal(myTree);
-  printf("\n");
+  printf("\n PostOrder:");
   PostOrderTraversal(myTree);
-  printf("\n");
+  printf("\n Leaves:");
   PreOrderPrintLeaves(myTree);
   printf("\n");
-  // int high = PostOrderGetHeight(myTree);
-  // printf("The height of the tree: %4d", high);
-  CopyBinaryTree(myTree, &newTree);
-  printf("new Tree :\n");
-  PreOrderTraversal(newTree);
-  printf("\nExchange new Tree:\n");
-  ExchangeChilden(newTree);
-  PreOrderTraversal(newTree);
+  int high = PostOrderGetHeight(myTree);
+  printf("The height of the tree: %4d", high);
   return 0;
 }

@@ -62,8 +62,8 @@ void InOrderTraversal ( BinTree BT ) {
 //二叉树后序遍历递归算法
 void PostOrderTraversal ( BinTree BT ) {
     if ( BT ) {
-        PreOrderTraversal( BT->Left );
-        PreOrderTraversal( BT->Right );
+        PostOrderTraversal( BT->Left );
+        PostOrderTraversal( BT->Right );
         printf("%c", BT->Data);
     }
 }
