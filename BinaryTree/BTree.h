@@ -53,9 +53,9 @@ void PreOrderTraversal ( BinTree BT ) {
 //二叉树中序遍历递归算法
 void InOrderTraversal ( BinTree BT ) {
     if ( BT ) {
-        PreOrderTraversal( BT->Left );
+        InOrderTraversal( BT->Left );
         printf("%c", BT->Data);
-        PreOrderTraversal( BT->Right );
+        InOrderTraversal( BT->Right );
     }
 }
 

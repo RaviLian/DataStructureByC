@@ -3,4 +3,6 @@ Using C language to implement data structures and algorithms. Preparation for po
 
 IDE: CLion		Environment: MinGW32
 
-![](img/google3.gif)
+IDE: Visual Studio Code  Environment : MinGW + PowerShell
+
+IDE: Atom   + linter-gcc + linter +  gcc-make-run  Environment: MinGW
